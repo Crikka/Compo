@@ -1,34 +1,5 @@
+// Hello world
+
 Descriptor Counter extends Component
 {
-  provides {
-    default: {
-      incr(); 
-      incr(val : Integer); 
-      show();
-    };
-  }
-	
-  internally requires {
-    val : Integer;
-  }
-	
-  requires {
-    printer: { print(txt : Printable); };
-  }
-	
-  architecture {
-    connect val@self to 0;
-  }
-	
-  service incr(val) {
-    connect val@self to (val@self + val);
-  }
-	
-  service incr() {
-    connect val@self to (val@self + 1);
-  }
-	
-  service show() {
-    printer.print(printable@(val@self));
-  }
 }

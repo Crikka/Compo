@@ -1,0 +1,3 @@
+[submodule "src/compiler/parser/tanuki"]
+	path = src/compiler/parser/tanuki
+	url = https://github.com/Crikka/tanuki-parser.git
