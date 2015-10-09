@@ -2,4 +2,32 @@
 
 Descriptor Counter extends Component
 {
+/*
+  provides {
+    default: {
+      incr(); 
+      show();
+    };
+  }
+	
+  internally requires {
+    value : Integer;
+  }
+	
+  requires {
+    printer: { print(txt : Printable); };
+  }
+	
+  architecture {
+    value@self >>> 0;
+  }
+
+  service incrementer() {
+    value@self >>> (value + 1);
+  }
+	
+  service showResult() {
+    printer.print(value);
+  }
+*/
 }

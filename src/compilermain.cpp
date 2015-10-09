@@ -2,9 +2,9 @@
 
 #include "compiler/parser/parse.h"
 
-int main(int argc, char* argv[]) {
-  std::cout << "Hello world" << std::endl;
+#include "tanuki/tanuki.h"
 
+int main(int argc, char* argv[]) {
   compo::ast::Component* component =
       compo::parseFile("../misc/examples/Counter.compo");
 
