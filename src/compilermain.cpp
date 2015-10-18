@@ -1,12 +1,13 @@
 #include <iostream>
 
+#include "compiler/parser/ast.h"
 #include "compiler/parser/parse.h"
 
-#include "tanuki/tanuki.h"
-
 int main(int argc, char* argv[]) {
+  compo::Parser parser;
+
   compo::ast::Component* component =
-      compo::parseFile("../misc/examples/Counter.compo");
+      parser.parseFile("../misc/examples/Counter.compo");
 
   if (component != nullptr) {
     std::cout << "Parse : Ok" << std::endl;

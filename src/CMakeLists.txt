@@ -13,9 +13,8 @@ find_package(Qt5Widgets)
 
 
 add_library(${PROJECT_NAME}Compiler
-    compiler/parser/ast
-    compiler/parser/parse
-    compiler/parser/tokens
+    compiler/parser/ast.cpp
+    compiler/parser/parse.cpp
 )
 target_link_libraries(${PROJECT_NAME}Compiler tanuki)
 set_target_properties(${PROJECT_NAME}Compiler PROPERTIES LINKER_LANGUAGE CXX)
