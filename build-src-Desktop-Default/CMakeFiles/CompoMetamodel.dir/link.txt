@@ -1,2 +1,0 @@
-/usr/bin/ar cq libCompoMetamodel.a  CMakeFiles/CompoMetamodel.dir/metamodel/component.cpp.o CMakeFiles/CompoMetamodel.dir/metamodel/descriptor.cpp.o CMakeFiles/CompoMetamodel.dir/metamodel/protoport.cpp.o CMakeFiles/CompoMetamodel.dir/metamodel/protorequiredport.cpp.o CMakeFiles/CompoMetamodel.dir/metamodel/protoprovidedport.cpp.o
-/usr/bin/ranlib libCompoMetamodel.a

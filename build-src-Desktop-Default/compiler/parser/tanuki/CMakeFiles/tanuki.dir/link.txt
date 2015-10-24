@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC -std=c++14    -shared -Wl,-soname,libtanuki.so -o libtanuki.so CMakeFiles/tanuki.dir/tanuki/parser/tokens.cpp.o CMakeFiles/tanuki.dir/tanuki/parser/special.cpp.o CMakeFiles/tanuki.dir/tanuki/misc/ref.cpp.o CMakeFiles/tanuki.dir/tanuki/misc/string.cpp.o 

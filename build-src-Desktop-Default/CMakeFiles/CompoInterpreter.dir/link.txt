@@ -1,2 +1,0 @@
-/usr/bin/ar cq libCompoInterpreter.a  
-/usr/bin/ranlib libCompoInterpreter.a

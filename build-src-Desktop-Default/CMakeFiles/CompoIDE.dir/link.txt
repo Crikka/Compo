@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++14     CMakeFiles/CompoIDE.dir/idemain.cpp.o  -o CompoIDE -rdynamic libCompoCompiler.a libCompoVM.a -lQt5::Widgets libCompoCompiler.a libCompoVM.a -lQt5::Widgets compiler/parser/tanuki/libtanuki.so libCompoEnvironment.a -Wl,-rpath,/home/fred/Bureau/CompoC/Compo/build-src-Desktop-Default/compiler/parser/tanuki 

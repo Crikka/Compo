@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++14     CMakeFiles/CompoENV.dir/envmain.cpp.o  -o CompoENV -rdynamic 

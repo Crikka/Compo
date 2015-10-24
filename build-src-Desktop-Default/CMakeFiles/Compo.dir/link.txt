@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++14     CMakeFiles/Compo.dir/main.cpp.o  -o Compo -rdynamic libCompoCompiler.a libCompoVM.a compiler/parser/tanuki/libtanuki.so libCompoEnvironment.a -Wl,-rpath,/home/fred/Bureau/CompoC/Compo/build-src-Desktop-Default/compiler/parser/tanuki 

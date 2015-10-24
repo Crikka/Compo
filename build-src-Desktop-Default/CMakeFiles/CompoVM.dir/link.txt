@@ -1,2 +1,0 @@
-/usr/bin/ar cq libCompoVM.a  CMakeFiles/CompoVM.dir/execution/vm/machine.cpp.o
-/usr/bin/ranlib libCompoVM.a

@@ -1,2 +1,0 @@
-/usr/bin/ar cq libCompoEnvironment.a  CMakeFiles/CompoEnvironment.dir/execution/env/env.cpp.o
-/usr/bin/ranlib libCompoEnvironment.a

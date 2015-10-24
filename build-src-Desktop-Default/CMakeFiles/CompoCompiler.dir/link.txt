@@ -1,2 +1,0 @@
-/usr/bin/ar cq libCompoCompiler.a  CMakeFiles/CompoCompiler.dir/compiler/parser/ast.cpp.o CMakeFiles/CompoCompiler.dir/compiler/parser/parse.cpp.o CMakeFiles/CompoCompiler.dir/compiler/parser/tokens.cpp.o
-/usr/bin/ranlib libCompoCompiler.a
