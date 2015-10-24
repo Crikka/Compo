@@ -4,7 +4,7 @@
 #include <vector>
 
 namespace Compo {
-namespace Env {
+namespace Metamodel {
 
 class ProtoPort
 {

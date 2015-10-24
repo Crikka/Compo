@@ -1,6 +1,6 @@
 #include "protoport.h"
 
-using namespace Compo::Env;
+using namespace Compo::Metamodel;
 using namespace std;
 
 ProtoPort::ProtoPort()

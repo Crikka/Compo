@@ -4,7 +4,7 @@
 #include "protoport.h"
 
 namespace Compo {
-namespace Env {
+namespace Metamodel {
 
 class ProtoProvidedPort : public ProtoPort
 {

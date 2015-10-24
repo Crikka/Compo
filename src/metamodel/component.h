@@ -6,7 +6,7 @@
 #include "protoport.h"
 
 namespace Compo {
-namespace Env {
+namespace Metamodel {
 
 class ProtoPort;
 class Descriptor;

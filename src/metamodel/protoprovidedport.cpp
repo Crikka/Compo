@@ -1,6 +1,6 @@
 #include "protoprovidedport.h"
 
-using namespace Compo::Env;
+using namespace Compo::Metamodel;
 
 ProtoProvidedPort::ProtoProvidedPort()
 {

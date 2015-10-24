@@ -5,7 +5,7 @@
 #include <string>
 
 namespace Compo {
-namespace Env {
+namespace Metamodel {
 
 class Descriptor : public Component
 {

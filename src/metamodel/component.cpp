@@ -1,7 +1,7 @@
 #include "component.h"
 #include "descriptor.h"
 
-using namespace Compo::Env;
+using namespace Compo::Metamodel;
 
 Component::Component()
 {
