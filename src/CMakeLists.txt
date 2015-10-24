@@ -11,7 +11,6 @@ set(CMAKE_CXX_FLAGS "-std=c++14 ${CMAKE_CXX_FLAGS}")
 # Find
 find_package(Qt5Widgets)
 
-
 add_library(${PROJECT_NAME}Compiler
     compiler/parser/ast.cpp
     compiler/parser/parse.cpp
@@ -44,13 +43,27 @@ add_library(${PROJECT_NAME}VM
 target_link_libraries(${PROJECT_NAME}VM ${PROJECT_NAME}Environment)
 set_target_properties(${PROJECT_NAME}VM PROPERTIES LINKER_LANGUAGE CXX)
 
+add_library(${PROJECT_NAME}Metamodel
+    metamodel/component
+    metamodel/descriptor
+    metamodel/protoport
+    metamodel/protorequiredport
+    metamodel/protoprovidedport
+)
+target_link_libraries(${PROJECT_NAME}Metamodel ${PROJECT_NAME}Metamodel)
+set_target_properties(${PROJECT_NAME}Metamodel PROPERTIES LINKER_LANGUAGE CXX)
+
 
 add_executable(${PROJECT_NAME} main.cpp)
 target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}Compiler ${PROJECT_NAME}VM)
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE CXX)
 
 
-
 add_executable(${PROJECT_NAME}IDE idemain.cpp)
+target_link_libraries(${PROJECT_NAME}IDE ${PROJECT_NAME}Compiler ${PROJECT_NAME}VM Qt5::Widgets)
+set_target_properties(${PROJECT_NAME}IDE PROPERTIES LINKER_LANGUAGE CXX)
+
+
+add_executable(${PROJECT_NAME}ENV envmain.cpp)
 target_link_libraries(${PROJECT_NAME}IDE ${PROJECT_NAME}Compiler ${PROJECT_NAME}VM Qt5::Widgets)
 set_target_properties(${PROJECT_NAME}IDE PROPERTIES LINKER_LANGUAGE CXX)
