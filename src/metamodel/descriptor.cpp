@@ -2,7 +2,7 @@
 #include "protorequiredport.h"
 #include "protoprovidedport.h"
 
-using namespace Compo::Env;
+using namespace Compo::Metamodel;
 using namespace std;
 
 Descriptor::Descriptor()
