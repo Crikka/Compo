@@ -1,13 +1,13 @@
-#include <QApplication>
+//#include <QApplication>
 
-#include <QWidget>
+//#include <QWidget>
 
 
-int main(int argc, char *argv[])
-{
-    QApplication application(argc, argv);
-    QWidget widget;
-    widget.show();
+//int main(int argc, char *argv[])
+//{
+//    QApplication application(argc, argv);
+//    QWidget widget;
+//    widget.show();
 
-    return application.exec();
-}
+//    return application.exec();
+//}

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fred/Bureau/CompoC/Compo/src/execution/env/env.cpp
+env.h
+/home/fred/Bureau/CompoC/Compo/src/execution/env/env.h
+
+/home/fred/Bureau/CompoC/Compo/src/execution/env/env.h
+

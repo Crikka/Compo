@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14     CMakeFiles/TanukiTests.dir/testing/main.cpp.o  -o TanukiTests -rdynamic libtanuki.so -Wl,-rpath,/home/fred/Bureau/CompoC/Compo/build-src-Desktop-Default/compiler/parser/tanuki 
